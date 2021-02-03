@@ -1,7 +1,7 @@
 
 body{
   background-color: #E4F9F5;
-  text-align: center;
+  text-align: center !important;
   line-height: 2;
   min-width: 1290px !important;
   overflow-x: hidden
