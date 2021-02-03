@@ -1,10 +1,10 @@
 
-body{
-  background-color: #E4F9F5;
+*  {box-sizing: border-box}
+body {
+  background-color: #E4F9F5 !important;
   text-align: center !important;
   line-height: 2;
   min-width: 1290px !important;
-  overflow-x: hidden
 }
 
 ul {
@@ -12,19 +12,22 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color:  #a29bfe;
+  background-color: #a29bfe;
 }
 
-h1 { font-size: 500%
+h1 {
+  font-size: 500% !important;
 }
-h1.a { font-size: 250%
+
+h1.a {
+  font-size: 250% !important;
 }
-/* width */
+
 ::-webkit-scrollbar {
   width: 13px;
 }
 
-/* Handle */
+
 ::-webkit-scrollbar-thumb {
   background: #a29bfe;
   border-radius: 5px;
@@ -69,7 +72,7 @@ h1.a { font-size: 250%
   background-color: #a29bfe;
 }
 
-.topnav .icon {
+.topnav .ico {
   display: none;
 }
 
@@ -77,27 +80,27 @@ h1.a { font-size: 250%
   display: none;
 }
 
-.covid{
+.covid {
   color: black;
 }
 
-.margin{
+.margin {
   margin: 20px;
 }
 
-.bottom-container{
+.bottom-container {
     background-color: #a29bfe;
     padding: 5px;
     bottom: 5;
     width: 100%;
   }
 
-  .copywrite {
+  .copywrite  {
     font-size: 1rem;
     padding: 0px 0px;
   }
 
-  .Vesper{
+  .Vesper {
   font-family: 'Vesper Libre', serif;
   font-size: 1rem;
 }
