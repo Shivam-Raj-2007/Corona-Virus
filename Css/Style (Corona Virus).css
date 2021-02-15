@@ -71,6 +71,7 @@ h1.a {
 
 .topnav a:hover {
   background-color: #a29bfe;
+  text-decoration: none;
 }
 
 .topnav .ico {
@@ -90,18 +91,18 @@ h1.a {
 }
 
 .bottom-container {
-    background-color: #a29bfe;
-    padding: 5px;
-    bottom: 5;
-    width: 100%;
-  }
+  background-color: #a29bfe;
+  padding: 5px;
+  bottom: 5;
+  width: 100%;
+}
 
-  .copywrite  {
-    font-size: 1rem;
-    padding: 0px 0px;
-  }
+.copywrite  {
+  font-size: 1rem;
+  padding: 0px 0px;
+}
 
-  .Vesper {
+.Vesper {
   font-family: 'Vesper Libre', serif;
   font-size: 1rem;
 }
