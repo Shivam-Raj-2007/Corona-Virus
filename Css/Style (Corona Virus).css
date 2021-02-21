@@ -1,5 +1,10 @@
 
 *  {box-sizing: border-box}
+
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #E4F9F5 !important;
   text-align: center !important;
