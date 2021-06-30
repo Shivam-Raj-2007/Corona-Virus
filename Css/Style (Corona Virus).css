@@ -7,10 +7,10 @@ html{
 
 body {
   background-color: #E4F9F5 !important;
+  color: #40514E;
   text-align: center !important;
   line-height: 2 !important;
   min-width: 1290px !important;
-  overflow-x: hidden;
 }
 
 ul {
@@ -18,7 +18,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #a29bfe;
+  background-color: red;
 }
 
 h1 {
@@ -67,15 +67,18 @@ h1.a {
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
-  color: #ea4335;
+  color: #111;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  transition: 0.4s all;
 }
 
 .topnav a:hover {
-  background-color: #a29bfe;
+  color: black;
+  background-color: #e80505;
+
   text-decoration: none;
 }
 
@@ -84,7 +87,8 @@ h1.a {
 }
 
 .covid {
-  color: black;
+  color: white;
+
 }
 
 .margin {
@@ -106,4 +110,122 @@ h1.a {
 .Vesper {
   font-family: 'Vesper Libre', serif;
   font-size: 1rem;
+}
+
+.cough {
+  position: absolute;
+  top: 2450px;
+  left: 120px;
+}
+
+.nose {
+  position: absolute;
+  top: 2450px;
+  left: 43%
+}
+
+.fever {
+  position: absolute;
+  top: 2450px;
+  right: 120px;
+}
+
+.Cold {
+  position: absolute;
+  top: 2700px;
+  left: 120px;
+}
+
+.Tiredness {
+  position: absolute;
+  top: 2700px;
+  right: 43%;
+}
+
+.Breathing {
+  position: absolute;
+  top: 2700px;
+  right: 100px;
+}
+
+.handwash {
+  position: absolute;
+  top: 3100px;
+  left: 50px;
+}
+
+.mask {
+  position: absolute;
+  top: 3100px;
+  right: 35%
+}
+
+.quarantine {
+  position: absolute;
+  top: 3100px;
+  right: 50px;
+}
+
+.home {
+  position: absolute;
+  top: 3450px;
+  left: 300px;
+}
+
+.news {
+  position: absolute;
+  top: 3450px;
+  right: 300px;
+}
+
+@media screen and (max-width: 1200px) {
+  .text {
+    display: none;
+  }
+
+  .cough {
+    left: 200px;
+  }
+
+  .Nose {
+    left: 550px;
+  }
+
+  .Fever {
+    left: 900px;
+  }
+
+  .Cold {
+    left: 200px;
+  }
+
+  .Tiredness {
+    left: 550px;
+  }
+
+  .Breathing {
+    left: 900px;
+  }
+
+  .handwash {
+    left: 200px;
+  }
+
+  .mask {
+    left: 550px;
+  }
+
+  .quarantine {
+    left: 900px;
+  }
+
+  .home {
+    top: 3350px;
+    left: 750px;
+  }
+
+  .news {
+    top: 3350px;
+    left: 350px;
+  }
 }
