@@ -240,9 +240,6 @@ h1.a {
   }
 
   .bottom-container {
-    position: absolute;
-    bottom: -6200px;
-    width: 1290px;
+   display: none;
   }
 }
-
