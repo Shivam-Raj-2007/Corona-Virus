@@ -246,7 +246,7 @@ h1.a {
   }
 }
 
-@media screen and (max-width: 400px) {
+/*@media screen and (max-width: 400px) {
    .bottom-container {
      bottom: -6150px;
      width: 1290px;
