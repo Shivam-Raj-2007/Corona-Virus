@@ -248,7 +248,7 @@ h1.a {
 
 @media screen and (max-width: 400px) {
    .bottom-container {
-     bottom: -6150px;
+     bottom: -6200px;
      width: 1290px;
    }
 }
